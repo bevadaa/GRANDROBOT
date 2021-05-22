@@ -26,7 +26,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is {}!** 
+**Hello {}, My Name is {LODU}!** 
 I am an **SUPERB**  group management bot.
 You can find the list of available commands with /help.
 
@@ -142,15 +142,15 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/teamishere")],
-                                                                                   [InlineKeyboardButton(text="ADD GRAND OFFICIAL TO YOUR GROUP",
+                                                                       url="t.me/SHADOWSHADOW_OFF_77")],
+                                                                                   [InlineKeyboardButton(text="ADD LODU TO YOUR SABKI GAND MARNE KE LIYE",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
                                                                        url="https://github.com/legendx22/GRANDROBOT")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already ONline")
+        update.effective_message.reply_text("GAMD MAR LUNGA VRMO JADA MAT UDD😈")
 
 
 def send_start(bot, update):
